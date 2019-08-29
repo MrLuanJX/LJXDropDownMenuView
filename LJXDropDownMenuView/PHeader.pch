@@ -1,0 +1,42 @@
+//
+//  PHeader.pch
+//  LJXDropDownMenuView
+//
+//  Created by 栾金鑫 on 2019/8/28.
+//  Copyright © 2019年 栾金鑫. All rights reserved.
+//
+
+#ifndef PHeader_pch
+#define PHeader_pch
+
+#import "UIView+Extension.h"
+#import "UILabel+Extension.h"
+#import "UIButton+Extension.h"
+
+//16进制颜色设置
+#define UIColorWithRGB(rgbValue, alphaValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0x00FF00) >> 8))/255.0 blue:((float)(rgbValue & 0x0000FF))/255.0 alpha:alphaValue]
+
+#define DDLineColor       UIColorWithRGB(0xeff3f6,1.0) //线的颜色
+#define DDThemeColor      UIColorWithRGB(0xf8c112,1.0) //主题色
+
+/********************屏幕宽和高*******************/
+#define DDScreenW [UIScreen mainScreen].bounds.size.width
+#define DDScreenH [UIScreen mainScreen].bounds.size.height
+//根据屏幕宽度计算对应View的高
+#define DDFit(value) ((value * DDScreenW) / 375.0f)
+/**字体*/
+#define DDFontSize(x) [UIFont systemFontOfSize:(DDScreenW > 374 ? (DDScreenW > 375 ? x * 1.1 : x ) : x / 1.1)]
+#define DDFontLineSize(x) [UIFont systemFontOfSize:(DDScreenW > 374 ? (CGFloat)x  : (CGFloat)x / 1.1) weight:UIFontWeightLight]
+
+#define DDFontBold(x) [UIFont systemFontOfSize:(DDScreenW > 374 ? (CGFloat)x  : (CGFloat)x / 1.1) weight:UIFontWeightBold]
+
+#define DDFontMiddleSize(x) [UIFont systemFontOfSize:(DDScreenW > 374 ? (CGFloat)x  : (CGFloat)x / 1.1) weight:UIFontWeightMedium]
+
+/**加粗字体*/
+#define DDFontBoldSize(x) [UIFont boldSystemFontOfSize:(DDScreenW > 374 ? (CGFloat)x  : (CGFloat)x / 1.1)]
+//window窗口
+#define kWindow [UIApplication sharedApplication].keyWindow
+/**判断字符串是否为空*/
+#define NULLString(string) ((string == nil) ||[string isEqualToString:@""] ||([string length] == 0)  || [string isKindOfClass:[NSNull class]] || [[string stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] length] == 0 ||[string isEqual:[NSNull null]])
+
+#endif /* PHeader_pch */

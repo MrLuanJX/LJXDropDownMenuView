@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD83A11223168FF5008869CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD83A11123168FF5008869CE /* AppDelegate.m */; };
+		DD83A11523168FF5008869CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD83A11423168FF5008869CE /* ViewController.m */; };
+		DD83A11823168FF5008869CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD83A11623168FF5008869CE /* Main.storyboard */; };
+		DD83A11A23168FF5008869CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD83A11923168FF5008869CE /* Assets.xcassets */; };
+		DD83A11D23168FF5008869CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD83A11B23168FF5008869CE /* LaunchScreen.storyboard */; };
+		DD83A12023168FF5008869CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD83A11F23168FF5008869CE /* main.m */; };
+		DD83A12923169085008869CE /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = DD83A12723169085008869CE /* UIView+Extension.m */; };
+		DD83A12D2316923B008869CE /* LJXChooseView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD83A12C2316923B008869CE /* LJXChooseView.m */; };
+		DD83A12F2316AE94008869CE /* loan.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD83A12E2316AE94008869CE /* loan.plist */; };
+		DD83A1322316B284008869CE /* LJXScanTypeView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD83A1312316B284008869CE /* LJXScanTypeView.m */; };
+		DD83A1352316BC53008869CE /* LJXTypeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DD83A1342316BC53008869CE /* LJXTypeModel.m */; };
+		DD83A1382316BCC5008869CE /* LJXStringFilterTool.m in Sources */ = {isa = PBXBuildFile; fileRef = DD83A1372316BCC5008869CE /* LJXStringFilterTool.m */; };
+		DD83A13B2316BF14008869CE /* UILabel+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = DD83A13A2316BF14008869CE /* UILabel+Extension.m */; };
+		DD83A13E2316C49D008869CE /* LJXTypeInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = DD83A13D2316C49D008869CE /* LJXTypeInstance.m */; };
+		DD83A141231789BA008869CE /* LJXSectionItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD83A140231789BA008869CE /* LJXSectionItemView.m */; };
+		DD83A1442317B7BD008869CE /* LJXItemFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD83A1432317B7BD008869CE /* LJXItemFooterView.m */; };
+		DD83A1472317B852008869CE /* UIButton+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = DD83A1462317B852008869CE /* UIButton+Extension.m */; };
+		DD83A14A2317C800008869CE /* LJXPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD83A1492317C800008869CE /* LJXPickerView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DD83A10D23168FF5008869CE /* LJXDropDownMenuView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LJXDropDownMenuView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD83A11023168FF5008869CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DD83A11123168FF5008869CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DD83A11323168FF5008869CE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DD83A11423168FF5008869CE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DD83A11723168FF5008869CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD83A11923168FF5008869CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD83A11C23168FF5008869CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD83A11E23168FF5008869CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD83A11F23168FF5008869CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD83A12723169085008869CE /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		DD83A12823169085008869CE /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		DD83A12A23169118008869CE /* PHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHeader.pch; sourceTree = "<group>"; };
+		DD83A12B2316923B008869CE /* LJXChooseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJXChooseView.h; sourceTree = "<group>"; };
+		DD83A12C2316923B008869CE /* LJXChooseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJXChooseView.m; sourceTree = "<group>"; };
+		DD83A12E2316AE94008869CE /* loan.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = loan.plist; sourceTree = "<group>"; };
+		DD83A1302316B284008869CE /* LJXScanTypeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJXScanTypeView.h; sourceTree = "<group>"; };
+		DD83A1312316B284008869CE /* LJXScanTypeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJXScanTypeView.m; sourceTree = "<group>"; };
+		DD83A1332316BC53008869CE /* LJXTypeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJXTypeModel.h; sourceTree = "<group>"; };
+		DD83A1342316BC53008869CE /* LJXTypeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJXTypeModel.m; sourceTree = "<group>"; };
+		DD83A1362316BCC5008869CE /* LJXStringFilterTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJXStringFilterTool.h; sourceTree = "<group>"; };
+		DD83A1372316BCC5008869CE /* LJXStringFilterTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJXStringFilterTool.m; sourceTree = "<group>"; };
+		DD83A1392316BF14008869CE /* UILabel+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Extension.h"; sourceTree = "<group>"; };
+		DD83A13A2316BF14008869CE /* UILabel+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Extension.m"; sourceTree = "<group>"; };
+		DD83A13C2316C49D008869CE /* LJXTypeInstance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJXTypeInstance.h; sourceTree = "<group>"; };
+		DD83A13D2316C49D008869CE /* LJXTypeInstance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJXTypeInstance.m; sourceTree = "<group>"; };
+		DD83A13F231789BA008869CE /* LJXSectionItemView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJXSectionItemView.h; sourceTree = "<group>"; };
+		DD83A140231789BA008869CE /* LJXSectionItemView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJXSectionItemView.m; sourceTree = "<group>"; };
+		DD83A1422317B7BD008869CE /* LJXItemFooterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJXItemFooterView.h; sourceTree = "<group>"; };
+		DD83A1432317B7BD008869CE /* LJXItemFooterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJXItemFooterView.m; sourceTree = "<group>"; };
+		DD83A1452317B852008869CE /* UIButton+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Extension.h"; sourceTree = "<group>"; };
+		DD83A1462317B852008869CE /* UIButton+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Extension.m"; sourceTree = "<group>"; };
+		DD83A1482317C800008869CE /* LJXPickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJXPickerView.h; sourceTree = "<group>"; };
+		DD83A1492317C800008869CE /* LJXPickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJXPickerView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD83A10A23168FF5008869CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD83A10423168FF4008869CE = {
+			isa = PBXGroup;
+			children = (
+				DD83A12623169020008869CE /* LJXMenuView */,
+				DD83A10F23168FF5008869CE /* LJXDropDownMenuView */,
+				DD83A10E23168FF5008869CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD83A10E23168FF5008869CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD83A10D23168FF5008869CE /* LJXDropDownMenuView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD83A10F23168FF5008869CE /* LJXDropDownMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				DD83A11023168FF5008869CE /* AppDelegate.h */,
+				DD83A11123168FF5008869CE /* AppDelegate.m */,
+				DD83A11323168FF5008869CE /* ViewController.h */,
+				DD83A11423168FF5008869CE /* ViewController.m */,
+				DD83A11623168FF5008869CE /* Main.storyboard */,
+				DD83A11923168FF5008869CE /* Assets.xcassets */,
+				DD83A11B23168FF5008869CE /* LaunchScreen.storyboard */,
+				DD83A11E23168FF5008869CE /* Info.plist */,
+				DD83A11F23168FF5008869CE /* main.m */,
+				DD83A12A23169118008869CE /* PHeader.pch */,
+			);
+			path = LJXDropDownMenuView;
+			sourceTree = "<group>";
+		};
+		DD83A12623169020008869CE /* LJXMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				DD83A12E2316AE94008869CE /* loan.plist */,
+				DD83A12B2316923B008869CE /* LJXChooseView.h */,
+				DD83A12C2316923B008869CE /* LJXChooseView.m */,
+				DD83A1302316B284008869CE /* LJXScanTypeView.h */,
+				DD83A1312316B284008869CE /* LJXScanTypeView.m */,
+				DD83A13F231789BA008869CE /* LJXSectionItemView.h */,
+				DD83A140231789BA008869CE /* LJXSectionItemView.m */,
+				DD83A1422317B7BD008869CE /* LJXItemFooterView.h */,
+				DD83A1432317B7BD008869CE /* LJXItemFooterView.m */,
+				DD83A1332316BC53008869CE /* LJXTypeModel.h */,
+				DD83A1342316BC53008869CE /* LJXTypeModel.m */,
+				DD83A13C2316C49D008869CE /* LJXTypeInstance.h */,
+				DD83A13D2316C49D008869CE /* LJXTypeInstance.m */,
+				DD83A1362316BCC5008869CE /* LJXStringFilterTool.h */,
+				DD83A1372316BCC5008869CE /* LJXStringFilterTool.m */,
+				DD83A12823169085008869CE /* UIView+Extension.h */,
+				DD83A12723169085008869CE /* UIView+Extension.m */,
+				DD83A1392316BF14008869CE /* UILabel+Extension.h */,
+				DD83A13A2316BF14008869CE /* UILabel+Extension.m */,
+				DD83A1452317B852008869CE /* UIButton+Extension.h */,
+				DD83A1462317B852008869CE /* UIButton+Extension.m */,
+				DD83A1482317C800008869CE /* LJXPickerView.h */,
+				DD83A1492317C800008869CE /* LJXPickerView.m */,
+			);
+			path = LJXMenuView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD83A10C23168FF5008869CE /* LJXDropDownMenuView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD83A12323168FF5008869CE /* Build configuration list for PBXNativeTarget "LJXDropDownMenuView" */;
+			buildPhases = (
+				DD83A10923168FF5008869CE /* Sources */,
+				DD83A10A23168FF5008869CE /* Frameworks */,
+				DD83A10B23168FF5008869CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LJXDropDownMenuView;
+			productName = LJXDropDownMenuView;
+			productReference = DD83A10D23168FF5008869CE /* LJXDropDownMenuView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD83A10523168FF4008869CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "栾金鑫";
+				TargetAttributes = {
+					DD83A10C23168FF5008869CE = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = DD83A10823168FF4008869CE /* Build configuration list for PBXProject "LJXDropDownMenuView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD83A10423168FF4008869CE;
+			productRefGroup = DD83A10E23168FF5008869CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD83A10C23168FF5008869CE /* LJXDropDownMenuView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD83A10B23168FF5008869CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD83A11D23168FF5008869CE /* LaunchScreen.storyboard in Resources */,
+				DD83A11A23168FF5008869CE /* Assets.xcassets in Resources */,
+				DD83A12F2316AE94008869CE /* loan.plist in Resources */,
+				DD83A11823168FF5008869CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD83A10923168FF5008869CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD83A13B2316BF14008869CE /* UILabel+Extension.m in Sources */,
+				DD83A1442317B7BD008869CE /* LJXItemFooterView.m in Sources */,
+				DD83A1322316B284008869CE /* LJXScanTypeView.m in Sources */,
+				DD83A1382316BCC5008869CE /* LJXStringFilterTool.m in Sources */,
+				DD83A11523168FF5008869CE /* ViewController.m in Sources */,
+				DD83A12023168FF5008869CE /* main.m in Sources */,
+				DD83A1352316BC53008869CE /* LJXTypeModel.m in Sources */,
+				DD83A12923169085008869CE /* UIView+Extension.m in Sources */,
+				DD83A12D2316923B008869CE /* LJXChooseView.m in Sources */,
+				DD83A11223168FF5008869CE /* AppDelegate.m in Sources */,
+				DD83A13E2316C49D008869CE /* LJXTypeInstance.m in Sources */,
+				DD83A14A2317C800008869CE /* LJXPickerView.m in Sources */,
+				DD83A1472317B852008869CE /* UIButton+Extension.m in Sources */,
+				DD83A141231789BA008869CE /* LJXSectionItemView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DD83A11623168FF5008869CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD83A11723168FF5008869CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD83A11B23168FF5008869CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD83A11C23168FF5008869CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD83A12123168FF5008869CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DD83A12223168FF5008869CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD83A12423168FF5008869CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LJXDropDownMenuView/PHeader.pch";
+				INFOPLIST_FILE = LJXDropDownMenuView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zecaifu-luanjinxin.LJXDropDownMenuView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD83A12523168FF5008869CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LJXDropDownMenuView/PHeader.pch";
+				INFOPLIST_FILE = LJXDropDownMenuView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zecaifu-luanjinxin.LJXDropDownMenuView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD83A10823168FF4008869CE /* Build configuration list for PBXProject "LJXDropDownMenuView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD83A12123168FF5008869CE /* Debug */,
+				DD83A12223168FF5008869CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD83A12323168FF5008869CE /* Build configuration list for PBXNativeTarget "LJXDropDownMenuView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD83A12423168FF5008869CE /* Debug */,
+				DD83A12523168FF5008869CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD83A10523168FF4008869CE /* Project object */;
+}
